@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gaming_library.xsl"?>
+<!DOCTYPE GamingLibrary SYSTEM "gaming_library.dtd">
+<GamingLibrary xmlns="http://www.example.com/gaming"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.com/gaming gaming_library.xsd">
+    <Game>
+        <GameID>G001</GameID>
+        <GameName>The Witcher 3</GameName>
+        <Category>Role-Playing Game</Category>
+        <ReleaseDate>2015-05-19</ReleaseDate>
+        <Publisher>CD Projekt Red</Publisher>
+        <Price>29.99</Price>
+        <Rating>9.5</Rating>
+    </Game>
+    <Game>
+        <GameID>G002</GameID>
+        <GameName>Portal</GameName>
+        <Category>Puzzle</Category>
+        <ReleaseDate>2007-10-10</ReleaseDate>
+        <Publisher>Valve</Publisher>
+        <Price>9.99</Price>
+        <Rating>9.0</Rating>
+    </Game>
+    <Game>
+        <GameID>G003</GameID>
+        <GameName>Half-Life 2</GameName>
+        <Category>First-Person Shooter</Category>
+        <ReleaseDate>2004-11-16</ReleaseDate>
+        <Publisher>Valve</Publisher>
+        <Price>19.99</Price>
+        <Rating>9.4</Rating>
+    </Game>
+    <Game>
+        <GameID>G004</GameID>
+        <GameName>The Elder Scrolls V: Skyrim</GameName>
+        <Category>Role-Playing Game</Category>
+        <ReleaseDate>2011-11-11</ReleaseDate>
+        <Publisher>Bethesda</Publisher>
+        <Price>39.99</Price>
+        <Rating>9.6</Rating>
+    </Game>
+    <Game>
+        <GameID>G005</GameID>
+        <GameName>Dark Souls III</GameName>
+        <Category>Action RPG</Category>
+        <ReleaseDate>2016-03-24</ReleaseDate>
+        <Publisher>Bandai Namco</Publisher>
+        <Price>29.99</Price>
+        <Rating>9.3</Rating>
+    </Game>
+    <Game>
+        <GameID>G006</GameID>
+        <GameName>Celeste</GameName>
+        <Category>Platformer</Category>
+        <ReleaseDate>2018-01-25</ReleaseDate>
+        <Publisher>Matt Makes Games</Publisher>
+        <Price>19.99</Price>
+        <Rating>9.8</Rating>
+    </Game>
+    <Game>
+        <GameID>G007</GameID>
+        <GameName>Hades</GameName>
+        <Category>Roguelike</Category>
+        <ReleaseDate>2020-09-17</ReleaseDate>
+        <Publisher>Supergiant Games</Publisher>
+        <Price>24.99</Price>
+        <Rating>9.7</Rating>
+    </Game>
+    <Game>
+        <GameID>G008</GameID>
+        <GameName>Stardew Valley</GameName>
+        <Category>Simulation</Category>
+        <ReleaseDate>2016-02-26</ReleaseDate>
+        <Publisher>ConcernedApe</Publisher>
+        <Price>14.99</Price>
+        <Rating>9.5</Rating>
+    </Game>
+</GamingLibrary>

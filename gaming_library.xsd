@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.example.com/gaming" targetNamespace="http://www.example.com/gaming" elementFormDefault="qualified">
+
+    <xs:element name="GamingLibrary">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Game" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="GameID" type="xs:string"/>
+                            <xs:element name="GameName" type="xs:string"/>
+                            <xs:element name="Category" type="xs:string"/>
+                            <xs:element name="ReleaseDate" type="xs:date"/>
+                            <xs:element name="Publisher" type="xs:string"/>
+                            <xs:element name="Price" type="PriceType"/>
+                            <xs:element name="Rating" type="RatingType"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Restriction for Price -->
+    <xs:simpleType name="PriceType">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="5.00"/>
+            <xs:maxInclusive value="500.00"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Restriction for Rating -->
+    <xs:simpleType name="RatingType">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0.0"/>
+            <xs:maxInclusive value="10.0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

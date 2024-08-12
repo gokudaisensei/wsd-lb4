@@ -1,0 +1,14 @@
+<!ELEMENT GamingLibrary (Game+)>
+<!ELEMENT Game (GameID, GameName, Category, ReleaseDate, Publisher, Price, Rating)>
+<!ELEMENT GameID (#PCDATA)>
+<!ELEMENT GameName (#PCDATA)>
+<!ELEMENT Category (#PCDATA)>
+<!ELEMENT ReleaseDate (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Rating (#PCDATA)>
+
+<!ATTLIST GamingLibrary
+    xmlns CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED
+    xsi:schemaLocation CDATA #IMPLIED>
